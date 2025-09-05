@@ -40,6 +40,7 @@ class _MainAppState extends State<MainApp> {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
+
       supportedLocales: [Locale('en', ''), Locale('ar', '')],
       onGenerateRoute: (settings) {
         Widget page;
